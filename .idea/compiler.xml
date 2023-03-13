@@ -14,7 +14,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="FirstProject-main" options="-endorseddirs C:\Users\tinke\OneDrive\Desktop\FirstProject-main\FirstProject-main\target/endorsed" />
-      <module name="TBAD" options="-endorseddirs C:\Users\Adarsh\eclipse-workspace\TBADTets\target/endorsed" />
+      <module name="TBAD" options="-endorseddirs C:\Users\Adarsh\eclipse-workspace\FirstProject-1\target/endorsed" />
     </option>
   </component>
 </project>

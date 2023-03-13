@@ -330,3 +330,272 @@ margin-left: 5rem;
 .carousel slide{
     border: solid black;
 }
+
+
+
+
+
+
+
+.main-section {
+    background-color: rgb(227, 206, 206);
+    height: 10rem;
+    position: relative;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.main-section-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40rem;
+    /* adjust as needed */
+
+
+}
+
+.main-section-heading {
+    padding-right: 8rem;
+}
+
+.main-section-heading .off-3 h3 {
+    padding-right: 2rem;
+}
+
+.main-section-heading h3 {
+    margin: .4rem;
+    /* remove default margins */
+
+}
+
+
+.off-2 img {
+    margin-right: 5rem;
+    width: 4rem;
+    image-rendering: auto;
+}
+
+.off-3 h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+
+
+}
+
+
+.main-section-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.off-5 {
+    margin: 0 5%;
+}
+
+.btn {
+    width: 5rem;
+    background-color: #4CAF50;
+    /* Green background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    margin-right: 1rem;
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Change cursor on hover */
+    border-radius: 4px;
+    /* Rounded corners */
+    text-align: center;
+    /* Center text */
+
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+
+.btn i {
+    margin-left: 10px;
+}
+
+.btn i:before {
+    content: "\f054";
+}
+
+@media screen and (max-width: 768px) {
+    .main-section {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main-section-heading {
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .off-2 img {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .main-section-button {
+        margin-top: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+/* Base styles */
+.main-Popular {
+    background-color: rgb(227, 206, 206);
+    height: auto;
+    border-radius: 1rem;
+  }
+
+  .main-Popular1 {
+    padding: 1rem;
+  }
+
+  .main-Popular-heading1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .main-Popular-heading2 {
+    text-align: right;
+  }
+
+  .main-Popular-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+  }
+
+
+
+
+
+
+
+  .main-Popular{
+    margin-top: 4rem;
+  background-color: #57bf5a;
+
+  height: 15rem;
+  display: wrap;
+}
+
+.main-Popular1{
+    display: flex;
+}
+
+.main-Popular-products{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nre slider */
+.carousel{
+    margin-top:4rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 30vh;
+   position: relative;
+   overflow: hidden;
+   background-color: rgb(212,251,0);
+   background: linear-gradient(100deg,rgba(212,251,0,.5) 0%,rgba(255, 0,245, 0.5)100%);
+   box-shadow:  5px 10px 15px ;
+   border-radius: 15px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.corousel_slider{
+   display: flex;
+   position: relative;
+   align-items: center;
+   width: 80vw;
+   border: 2px  #333;
+   height: 200px;
+}
+.corousel_list{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    justify-content: space-around;
+}
+
+
+
+.courousel__itemm img{
+width: 9rem;
+border-radius: 80rem;
+
+}
+.courousel__itemm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border:  1px solid  #333;
+    border-radius: 100%;
+    font-weight: bold;
+   background-color: rgba(255, 255, 255, 0.3);
+   cursor: pointer;
+   overflow: hidden; /* hide anything outside the circle */
+}
+.courousel__itemm:hover{
+    transform: scale(1.1);
+    font-size: 30px;
+    background-color: rgba(255, 255, 255,0.7);
+
+
+}
+
+
+
+
+
+
+
+
+
+

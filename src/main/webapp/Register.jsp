@@ -15,7 +15,7 @@
     </head>
     <body>
 	<div class="container">
-		<h1>Register On TBAD</h1>
+		<h1>Register On Here</h1>
 		<form action="RegisterServlet" method="post">
 			<label for="name">Name:</label>
 			<input type="text" id="name" name="name" required>
