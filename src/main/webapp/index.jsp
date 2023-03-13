@@ -11,7 +11,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hearder</title>
+    <title>E-Commerce</title>
             <%@include file = "Complnents.jsp" %>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
@@ -104,13 +104,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img style="height: 20vh;" class="d-block w-100" src="2202-ROI-GHS-Buylist-Header-Top-offers.jpeg" alt="First slide">
+        <img style="height: 30vh;" class="d-block w-100" src="2202-ROI-GHS-Buylist-Header-Top-offers.jpeg" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img style="height: 20vh;" class="d-block w-100" src="2202-ROI-GHS-Buylist-Header-Top-offers.jpeg" alt="Second slide">
+        <img style="height: 30vh;" class="d-block w-100" src="2202-ROI-GHS-Buylist-Header-Top-offers.jpeg" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img style="height: 20vh;" class="d-block w-100" src="2202-ROI-GHS-Buylist-Header-Top-offers.jpeg" alt="Third slide">
+        <img style="height: 30vh;" class="d-block w-100" src="2202-ROI-GHS-Buylist-Header-Top-offers.jpeg" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -146,6 +146,69 @@
 
 
 
+<!-- add ads slider  start-->
+<div class="main-section">
+        <div class="off-2">
+            <a href=""><img src="img/offer1.png" alt=""> </a>
+        </div>
+        <div class="main-section-heading">
+            <div class="off-3">
+                <h3>Up to 40% OFF. Kick off the year with new tech!</h3>
+            </div>
+            <div class="off-4">
+                <h3>Everything you need to help you succeed.</h3>
+            </div>
+        </div>
+
+        <div class="main-section-button">
+            <div class="off-5">
+                <button class="btn">Let's go <i class="fas fa-chevron-right"></i></button>
+
+            </div>
+
+        </div>
+    </div>
+<!-- add ads slider  end-->
+
+<!-- add product slider  start-->
+<section class="carousel">
+    <div class="corousel_slider">
+        <ul class="corousel_list">
+            <li class="courousel__itemm">
+             <a href=""><img src="img/populer.jpg" alt=""></a>
+
+            </li>
+            <li class="courousel__itemm">
+                <a href=""><img src="img/populer1.jpg" alt=""></a>
+
+            </li>
+            <li class="courousel__itemm">
+                <a href=""><img src="img/populer2.webp" alt=""></a>
+
+            </li>
+            <li class="courousel__itemm">
+                <a href=""><img src="img/populer3.jpg" alt=""></a>
+
+            </li>
+            <li class="courousel__itemm">
+                <a href=""><img src="img/populer4.jpg" alt=""></a>
+
+            </li>
+            <li class="courousel__itemm">
+                <a href=""><img src="img/populer5.jpg" alt=""></a>
+            </li>
+
+        </ul>
+    </div>
+
+</section>
+<!-- add product slider  start-->
+
+
+
+
+
+
 <!-- Example -- >
 
 <!-- <div class="menu">
@@ -161,6 +224,9 @@
 
 <!-- Java Script Files -->
 
+
+
+
 <script>
  
  var trigger = document.querySelector('.trigger');
@@ -174,14 +240,19 @@ trigger.addEventListener('mouseout', function() {
   dropdown.classList.remove('active');
 });
 
+
+
+
+<!-- add script slider  start-->
 </script>
+<!-- add new slider  sript end-->
 <!-- Java Script Files End-->
-</body>
-</html>
-        
-        <% 
+
+<script src="ProductSlider.js"></script>
+
+ <%
         out.println(FactoryProvider.getFactory());
         %>
-        
+
     </body>
 </html>
