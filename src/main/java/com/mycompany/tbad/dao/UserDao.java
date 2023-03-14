@@ -27,7 +27,7 @@ Query q = session.createQuery(query);
 q.setParameter("e", email);
 q.setParameter("p", password);
 user = (User)q.uniqueResult();
-
+// Changes Are Made
 session.close();
 
               
