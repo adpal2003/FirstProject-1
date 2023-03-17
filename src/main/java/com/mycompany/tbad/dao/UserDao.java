@@ -8,6 +8,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Query;
 
 public class UserDao {
+    // Changesh
     private SessionFactory factory;
 
     public UserDao(SessionFactory factory) {

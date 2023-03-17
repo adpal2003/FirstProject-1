@@ -46,7 +46,7 @@ public class Login extends HttpServlet {
        UserDao userDao = new UserDao(FactoryProvider.getFactory());
             User user = userDao.getUserByEmailansPass(userEmail, userPass);
 //            System.out.print(user);
-            HttpSession httpsession =     request.getSession();
+            HttpSession httpsession = request.getSession();
             
 if(user == null){
 //out.print("<h1>not Valid</h1>");

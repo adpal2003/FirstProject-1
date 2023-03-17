@@ -28,7 +28,9 @@ public class RegisterServlet extends HttpServlet {
             String userConfPasswordEnter =  request.getParameter("confirm_password");
             String userPhone =  request.getParameter("phone");
             String userAddress =  request.getParameter("address");
+           
             
+            // ValidDation
             if(userPasswordEnter == null ? userConfPasswordEnter != null : !userPasswordEnter.equals(userConfPasswordEnter)){
             out.println("PassWord Is Not Matching");
             return;
@@ -45,7 +47,7 @@ public class RegisterServlet extends HttpServlet {
             txxxx.commit();
             hibernateSession.close();
             
-            out.println("<h1>succecs saved</h1>");
+            out.println("<a></a>");
             out.println("<br>" + userId);
             
             
